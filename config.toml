@@ -31,7 +31,7 @@ read-timeout = "5s"
 [input_plugins]
 
   # Configure the graphite api
-  [input_plugins.graphite
+  [input_plugins.graphite]
   enabled = true
   port = 2003
   database = "graphite"  # store graphite data in this database
